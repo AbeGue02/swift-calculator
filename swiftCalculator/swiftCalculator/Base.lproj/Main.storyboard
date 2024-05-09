@@ -29,6 +29,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="AC"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="wzv-vl-qe9"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUG-IU-iea"/>
                                                     <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EkE-Wj-q4B"/>
                                                 </connections>
                                             </button>
@@ -39,6 +41,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="7"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="3u8-od-WiZ"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAs-9f-9hf"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ErV-tT-hez"/>
                                                 </connections>
                                             </button>
@@ -49,6 +53,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="4"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="dJ0-Kp-bhY"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kSh-ks-aPy"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hcd-7A-Qk5"/>
                                                 </connections>
                                             </button>
@@ -59,6 +65,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="1"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="gtx-1m-AQi"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIR-6Z-uR2"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ud-wM-ZO5"/>
                                                 </connections>
                                             </button>
@@ -69,6 +77,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="0"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="1M2-9z-hXF"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaS-rG-qbY"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4x-6I-cg3"/>
                                                 </connections>
                                             </button>
@@ -83,6 +93,11 @@
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+/-"/>
+                                                <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="wmq-eq-I04"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vno-qv-mah"/>
+                                                    <action selector="changeSignButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEl-N6-shc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nac-p9-DtS">
                                                 <rect key="frame" x="0.0" y="80.333333333333314" width="97" height="78.333333333333314"/>
@@ -91,6 +106,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="8"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="I75-wg-mhT"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3yd-1c-Nng"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QhI-r6-yzj"/>
                                                 </connections>
                                             </button>
@@ -101,6 +118,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="5"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="ex8-Eg-8ya"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eES-up-i6k"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QZK-GD-rEm"/>
                                                 </connections>
                                             </button>
@@ -111,6 +130,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="2"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="fs7-hZ-pUt"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6rg-Bu-Oqp"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VfZ-yg-nln"/>
                                                 </connections>
                                             </button>
@@ -130,6 +151,11 @@
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="%"/>
+                                                <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="A3r-cM-YK8"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Jn-eg-l8g"/>
+                                                    <action selector="percentageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htl-7l-nY0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IU-mt-d3o">
                                                 <rect key="frame" x="0.0" y="80.333333333333314" width="96.666666666666671" height="78.333333333333314"/>
@@ -138,6 +164,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="9"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="Ojp-zR-sGh"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoG-ap-dzX"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfb-7W-Ubl"/>
                                                 </connections>
                                             </button>
@@ -148,6 +176,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="6"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="7wP-zO-Xpi"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BYO-ub-krz"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTi-Y8-tJ9"/>
                                                 </connections>
                                             </button>
@@ -158,6 +188,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="3"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="m6x-Vl-QNo"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uly-Md-kIZ"/>
                                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHf-pt-58G"/>
                                                 </connections>
                                             </button>
@@ -168,6 +200,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="."/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="XFM-zK-yRc"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KVt-KW-XsD"/>
                                                     <action selector="dotButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sca-kx-aoY"/>
                                                 </connections>
                                             </button>
@@ -183,6 +217,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="÷"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="HJp-ik-BvW"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRc-tu-W14"/>
                                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qI2-6h-CtI"/>
                                                 </connections>
                                             </button>
@@ -193,6 +229,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="x"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="5Bp-Ot-gl6"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QSN-NX-72M"/>
                                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ng5-du-xRb"/>
                                                 </connections>
                                             </button>
@@ -203,6 +241,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="-"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="xS1-ac-IHV"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b2a-gv-12O"/>
                                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2YH-Os-a9u"/>
                                                 </connections>
                                             </button>
@@ -213,6 +253,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+"/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="mqm-gb-Rug"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u5d-HZ-byS"/>
                                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yiY-gN-ghT"/>
                                                 </connections>
                                             </button>
@@ -223,6 +265,8 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="="/>
                                                 <connections>
+                                                    <action selector="anyButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="Z9K-MO-LUD"/>
+                                                    <action selector="anyButtonPressedUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZPQ-lc-lnw"/>
                                                     <action selector="resultButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mX6-4a-Fvt"/>
                                                 </connections>
                                             </button>

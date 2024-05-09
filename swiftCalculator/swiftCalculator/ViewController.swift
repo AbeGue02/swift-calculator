@@ -29,6 +29,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func anyButtonPressed(_ sender: UIButton) {
+        sender.alpha = 0.5
+    }
+    
+    @IBAction func anyButtonPressedUp(_ sender: UIButton) {
+        sender.alpha = 1
+    }
+    
     @IBAction func numberButtonPressed(_ sender: UIButton) {
     
         if resultLabel.text == "0" {
@@ -62,6 +70,22 @@ class ViewController: UIViewController {
         firstOperand = Double(resultLabel.text ?? "0") ?? 0
         resultLabel.text = "0"
         
+    }
+    
+    @IBAction func changeSignButtonPressed(_ sender: UIButton) {
+        if let text = resultLabel.text, let doubleValue = Double(text), doubleValue != 0.0 {
+            if !text.hasPrefix("-") {
+                resultLabel.text = "-\(text)"
+            } else {
+                resultLabel.text = String(text.dropFirst())
+            }
+        }
+    }
+    
+    @IBAction func percentageButtonPressed(_ sender: UIButton) {
+        if let text = resultLabel.text, let doubleValue = Double(text) {
+            resultLabel.text = String(format: "%g", (doubleValue / 100))
+        }
     }
     
     @IBAction func resultButtonPressed(_ sender: UIButton) {
